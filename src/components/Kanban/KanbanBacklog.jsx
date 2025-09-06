@@ -1,0 +1,89 @@
+import styles from "./KanbanBacklog.module.css";
+
+import { FaPlus } from "react-icons/fa6";
+import { MdEdit } from "react-icons/md";
+import AvatarStack from "../AvatarStack";
+
+const avatars = [
+  "./profiles/profile.png",
+  "./profiles/2.jpg",
+  "./profiles/3.jpg",
+  "./profiles/4.jpg",
+  "./profiles/5.png",
+];
+
+function KanbanBacklog() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.head}>
+        <h3>Backlog</h3>
+        <div className={styles.icon}>
+          <FaPlus />
+        </div>
+      </div>
+      <div className={styles.card1}>
+        <div className={styles.text}>
+          <p>Option to "use local/server version" feature</p>
+          <MdEdit />
+        </div>
+        <p>
+          It usually displays this message when you close an unsaved page when
+          you do it on purpose, and it's getting frustrated to see this every
+          time.
+        </p>
+        <div className={styles.photobutton}>
+          <AvatarStack
+            avatars={avatars}
+            size={25}
+            overlap={10}
+            maxVisible={4}
+          />
+          <button>UPDATES</button>
+        </div>
+      </div>
+      <div className={styles.card2}>
+        <div className={styles.text}>
+          <p>Add/modify your own CSS-Selectors</p>
+
+          <MdEdit />
+        </div>
+        <img src="./kanban/1.png" alt="" />
+        <p>
+          Website Design: The ability to add/modify your own CSS-Selectors like
+          its done in Venus.
+        </p>
+        <div className={styles.photobutton}>
+          <AvatarStack
+            avatars={avatars}
+            size={25}
+            overlap={10}
+            maxVisible={2}
+          />
+          <button>PENDING</button>
+        </div>
+      </div>
+      <div className={styles.card3}>
+        <div className={styles.text}>
+          <p>Shortcode for templates to display correctly</p>
+          <MdEdit />
+        </div>
+        <p>
+          When you save some sections as a template and then paste a shortcode
+          to a new page, the layout is broken, some styles are missing - in the
+          editor.
+        </p>
+        <div className={styles.photobutton}>
+          <AvatarStack
+            avatars={avatars}
+            size={25}
+            overlap={10}
+            maxVisible={4}
+          />
+          <button>ERRORS</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default KanbanBacklog;

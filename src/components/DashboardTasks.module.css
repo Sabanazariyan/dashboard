@@ -1,0 +1,75 @@
+.container {
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 20px 20px 20px;
+    margin-right: 0;
+    position: relative;
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.text label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2B3674;
+    margin-left: 5px;
+}
+
+.text input[type=checkbox] {
+    transform: scale(1.3);
+    margin-right: 5px;
+}
+
+.text input[type="checkbox"]:checked + label {
+  color: #2B3674; /* Change this to your desired color */
+}
+
+.icon {
+    position: absolute;
+    background-color: #F4F7FE;
+    color: #4318FF;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    top: 20px;
+    right: 20px;
+}
+
+.icon svg {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-left: 6px;
+
+}
+
+.checklist{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.checklist input[type="checkbox"]:checked + label {
+  color: #2B3674; /* Change this to your desired color */
+}
+
+.checklist label {
+    color: #A3AED0;
+}
+
+.checklist input[type=checkbox] {
+    transform: scale(1.1);
+    margin-right: 5px;
+}
+
+.checklist svg {
+    font-size: 1.2rem;
+}

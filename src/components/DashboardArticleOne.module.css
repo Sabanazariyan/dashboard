@@ -1,0 +1,94 @@
+.container {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.headicon {
+    background-color: #FEEFEE;
+    border-radius: 15px;
+    width: 48px;
+    height: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.headicon svg {
+    font-size: 1.4rem;
+    color: #EE5D50;
+}
+
+.headtext {
+    margin-left: 15px;
+}
+
+.headtext p:first-child {
+    font-size: 0.75rem;
+    color: #A3AED0;
+    font-weight: 700;
+}
+
+.headtext p:last-child {
+    font-size: 1rem;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    color: #2B3674;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.iconone, .icontwo {
+    display: flex;
+    align-items: center;
+}
+
+.iconone p, .icontwo p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #2B3674;
+    margin-left: 5px;
+}
+
+.iconone svg {
+    color: #01B574;
+    font-size: 1.2rem;
+}
+
+.icontwo {
+    color: #EE5D50;
+    font-size: 1.2rem;
+}
+
+.avatarsstack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.button {
+    width: 118px;
+    background-color: #4318FF;
+    color: #fff;
+    padding: 7px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}

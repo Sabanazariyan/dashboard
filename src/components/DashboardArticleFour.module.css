@@ -1,0 +1,58 @@
+.container {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.imagebackground {
+    border-radius: 20px;
+    height: 160px;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 40px;
+    bottom: 130px;
+}
+
+.icon {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(112.83deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0) 110.84%);
+    backdrop-filter: blur(25px);
+    border-radius: 12px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.icon svg {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    color: #A3AED0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.text svg {
+    margin-right: 5px;
+}

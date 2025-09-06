@@ -1,0 +1,77 @@
+.container {
+    width: 95%;
+    background-color: #fff;
+
+    border-radius: 20px;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.head h3 {
+    font-size: 1.2rem;
+    color: #1B2559;
+    font-weight: 700;
+}
+
+.head a {
+    text-decoration: none;
+    color: #4318FF;
+    background-color: #F4F7FE;
+    padding: 7px 15px;
+    font-size: 0.85rem;
+    border-radius: 70px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info img {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    margin-right: 5px;
+}
+
+.names p:first-child {
+    font-size: 0.95rem;
+    color: #1B2559;
+}
+
+.names p:last-child {
+    font-size: 0.75rem;
+    color: #A3AED0;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #2B3674;
+}
+
+.card1>p, .card2>p, .card3>p, .card4>p, .card5>p, .card6>p {
+    font-size: 0.9rem;
+    color: #A3AED0;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover {
+    box-shadow: 0px 18px 40px rgba(112, 144, 176, 0.12);
+}

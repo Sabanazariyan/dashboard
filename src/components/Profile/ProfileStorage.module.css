@@ -1,0 +1,53 @@
+.container {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    background-color: #F4F7FE;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: #4318FF;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cloud {
+    font-size: 3.2rem;
+    background-color: #F4F7FE;
+    color: #4318FF;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    line-height: 117px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2B3674;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #A3AED0;
+    padding: 0 30px;
+}
+
+.progressbar {
+    margin-bottom: 5px;
+}

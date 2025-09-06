@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.upload {
+    border: 2px dashed #E0E5F2;
+    border-radius: 13px;
+    padding: 100px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.uploadfile svg {
+    font-size: 4rem;
+    color: #4318FF;
+    cursor: pointer;
+}
+
+.uploadfile h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4318FF;
+    width: 175px;
+    cursor: pointer;
+}
+
+.uploadfile p {
+    font-size: 0.65rem;
+    color: #8F9BBA;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.text h3 {
+    font-size: 1rem;
+    color: #2B3674;
+    font-weight: 700;
+
+}
+
+.text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #A3AED0;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.text button {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4318FF;
+    padding: 15px 30px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+}

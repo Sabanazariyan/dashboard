@@ -1,0 +1,88 @@
+.container {
+  width: 90%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px 20px 20px 20px;
+  margin-right: 0;
+  position: relative;
+  padding-top: 40px;
+}
+
+/* ===========================
+   استایل‌های react-calendar
+   =========================== */
+
+/* ریشه‌ی تقویم */
+:global(.react-calendar) {
+  border: none !important;
+  width: 100%;
+}
+
+/* هدر (ماه/سال + دکمه‌ها) */
+:global(.react-calendar__navigation) {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+:global(.react-calendar__navigation button) {
+  background: none;
+  border: none;
+  color: #4318FF;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+:global(.react-calendar__navigation button:disabled) {
+  color: #ccc;
+}
+
+/* نام روزهای هفته */
+:global(.react-calendar__month-view__weekdays) {
+  text-align: center;
+  font-weight: 600;
+  color: #2B3674;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+/* روزهای عادی */
+:global(.react-calendar__tile) {
+  padding: 10px 2px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+  color: #333;
+  border: none;
+  background-color: #fff;
+}
+
+/* هاور روی روزها */
+:global(.react-calendar__tile:hover) {
+  background: #f0f7ff;
+  cursor: pointer;
+}
+
+/* روز انتخاب‌شده */
+:global(.react-calendar__tile--active) {
+  background: #4318FF !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+/* روزهای خارج از ماه */
+:global(.react-calendar__month-view__days__day--neighboringMonth) {
+  color: #bbb;
+}
+
+/* امروز */
+:global(.react-calendar__tile--now) {
+  border: 1px solid #3b82f6;
+  border-radius: 50%;
+}

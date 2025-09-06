@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    display: inline-table;
+    width: 100%;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.table th {
+    width: 25%;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 0.85rem;
+    color: #A3AED0;
+    font-weight: 500;
+}
+
+.table td {
+    width: 30%;
+    font-size: 0.85rem;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.withicon {
+    display: flex;
+    align-items: center;
+}
+
+.table th svg {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+.text p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2B3674;
+}
+
+.icon {
+    position: absolute;
+    background-color: #F4F7FE;
+    color: #4318FF;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.icon svg {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tddiv {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.tddiv svg {
+    font-size: 1.2rem;
+}

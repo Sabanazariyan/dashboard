@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 99vw;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+.content {
+    width: 100%;
+}
+
+.navbar {
+    width: 55%;
+}
+
+.ss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sss {
+    display: flex;
+    flex-direction: column;
+}

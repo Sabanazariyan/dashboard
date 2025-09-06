@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text p {
+    font-size: 1rem;
+    color: #2B3674;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #A3AED0;
+}
+
+.info span {
+    font-size: 0.85rem;
+}

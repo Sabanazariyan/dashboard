@@ -1,0 +1,37 @@
+.container {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container svg {
+    font-size: 5.5rem;
+    color: #4318FF;
+}
+
+.container h3 {
+    font-size: 1.2rem;
+    color: #2B3674;
+    font-weight: 700;
+    margin: 15px 0 20px;
+}
+
+.container p {
+    font-size: 0.9rem;
+    color: #A3AED0;
+    margin-bottom: 10px;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4318FF;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}

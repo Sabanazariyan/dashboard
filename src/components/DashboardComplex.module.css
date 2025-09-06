@@ -1,0 +1,74 @@
+.container {
+    width: 93%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 30px 20px 20px;
+    margin-right: 0;
+    position: relative;
+}
+
+.text p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2B3674;
+}
+
+.icon {
+    position: absolute;
+    background-color: #F4F7FE;
+    color: #4318FF;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    top: 20px;
+    right: 20px;
+}
+
+.icon svg {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-left: 6px;
+
+}
+
+.table {
+    border-collapse: collapse;
+    display: inline-table;
+    width: 100%;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.table th {
+    width: 25%;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 0.85rem;
+    color: #A3AED0;
+    font-weight: 500;
+}
+
+
+.table td {
+    width: 30%;
+    font-size: 0.85rem;
+    color: #2B3674;
+}
+
+table {
+    border-spacing: 0 15px;
+    width: 100%;
+}
+
+
+
+.tddiv {
+    display: flex;
+    align-items: center;
+}
+
+.tddiv svg {
+    font-size: 1.2rem;
+}
+

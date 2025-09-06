@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstcharts {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.tablechart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondcharts{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.complexcallender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskscallender {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.fisrtarticles{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.secondarticles{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 100%;
+    gap: 20px;
+}

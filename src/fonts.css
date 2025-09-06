@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "DMSans-Bold";
+    src: url("../src/assets/fonts/DMSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DMSans-BoldItalic";
+    src: url("../src/assets/fonts/DMSans-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "DMSans-Italic";
+    src: url("../src/assets/fonts/DMSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../src/assets/fonts/DMSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "DMSans-MediumItalic";
+    src: url("../src/assets/fonts/DMSans-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url("../src/assets/fonts/DMSans-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Poppins-Bold";
+    src: url("../src/assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../src/assets/fonts/Poppins-Regular.ttf");
+}

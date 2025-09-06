@@ -1,0 +1,77 @@
+.container {
+  width: 85%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.container h3 {
+  font-size: 1.4rem;
+  color: #2B3674;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.icon {
+  position: absolute;
+  background-color: #F4F7FE;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: #4318FF;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.toggleButton {
+  width: 50px;
+  height: 23px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #aaa;
+  position: relative;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.on {
+  background-color: #4318FF;
+}
+
+.off {
+  background-color: #aaa;
+}
+
+.toggleCircle {
+  width: 17px;
+  height: 17px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.circleOn {
+  transform: translateX(26.5px);
+}
+
+.circleOff {
+  transform: translateX(0);
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.card p {
+  color: #2B3674;
+  font-weight: 600;
+}

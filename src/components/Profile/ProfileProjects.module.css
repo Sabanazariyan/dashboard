@@ -1,0 +1,78 @@
+.container {
+    width: 85%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container h3 {
+    font-size: 1.4rem;
+    color: #2B3674;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.container>p {
+    font-size: 0.9rem;
+    color: #A3AED0;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+
+.card1, .card2, .card3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 18px 40px rgba(112, 144, 176, 0.12);
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.card1 img, .card2 img, .card3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 13px;
+    margin-right: 5px;
+}
+
+.card1 p, .card2 p, .card3 p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #2B3674;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.info p {
+    font-size: 0.7rem;
+    color: #A3AED0;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.info a {
+    font-size: 0.7rem;
+    color: #4318FF;
+}
+
+.card1 svg, .card2 svg, .card3 svg {
+    font-size: 1.2rem;
+    color: #8F9BBA;
+    margin-left: 15px;
+    cursor: pointer;
+}

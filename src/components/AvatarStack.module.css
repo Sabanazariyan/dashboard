@@ -1,0 +1,38 @@
+.stack {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* اگر بخواهی می‌توانی padding-left اضافه کنی */
+}
+
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: solid #fff 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    transition: transform .15s ease;
+    cursor: pointer;
+    border: solid 2px white;
+}
+
+/* افکت hover برای بزرگ شدن کمی */
+.avatar:hover {
+    transform: scale(1.18);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* دایره +X برای بقیه */
+.more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #e6e6e6;
+    color: #222;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border: solid 2px white;
+    /* برای جدا شدن از پشت */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    
+}

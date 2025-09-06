@@ -1,0 +1,104 @@
+.container {
+    width: 95%;
+    margin: 30px 20px;
+    
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.head h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2B3674;
+}
+
+.categories ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.categories li {
+    list-style-type: none;
+    color: #4318FF;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card1, .card2, .card3 {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card1>img, .card2>img, .card3>img {
+    width: 230px;
+    height: 180px;
+    border-radius: 18px;
+}
+
+.icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #4318FF;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.people p:first-child {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1B2559;
+}
+
+.people p:last-child {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #A3AED0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p {
+    font-size: 0.8rem;
+    color: #4318FF;
+    font-weight: 700;
+}
+
+.price button {
+    border: none;
+    color: #fff;
+    background-color: #11047A;
+    font-size: 0.75rem;
+    padding: 7px 17px;
+    border-radius: 70px;
+    cursor: pointer;
+}
