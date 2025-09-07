@@ -11,7 +11,7 @@ import DashboardPieChart from "../components/DashboardPieChart";
 import DashboardComplex from "../components/DashboardComplex";
 import DashboardTasks from "../components/DashboardTasks";
 import DashboardCallender from "../components/DashboardCallender";
-import DashboardArticleOne from "../components/DashboardArticleone";
+import DashboardArticleOne from "../components/DashboardArticleOne";
 import DashboardArticleTwo from "../components/DashboardArticleTwo";
 import DashboardArticleThree from "../components/DashboardArticleThree";
 import DashboardArticleFour from "../components/DashboardArticleFour";
