@@ -2,7 +2,7 @@ import DashboardNavbar from "../components/DashboardNavbar";
 import CheckTable from "../components/Tables/CheckTable";
 import ComplexTable from "../components/Tables/ComplexTable";
 import DevelopmentTable from "../components/Tables/DevelopmentTable";
-import FourColumnTable from "../components/Tables/fourColumnTable";
+import FourColumnTable from "../components/Tables/FourColumnTable";
 import TableMain from "../components/Tables/TableMain";
 
 import styles from "./Tables.module.css";
